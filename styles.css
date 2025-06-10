@@ -348,40 +348,40 @@ section {
 
 /* Sección de Preguntas Frecuentes */
 .faq-item {
-    cursor: pointer; /* Indica que es clicable */
+    cursor: pointer;
     position: relative;
-    padding-right: 40px; /* Deja espacio para el icono */
+    padding-right: 40px;
 }
 
 .faq-question {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0; /* Quita el margen inferior predeterminado del h3 */
-    padding: 15px 0; /* Espacio para el clic */
+    margin-bottom: 0;
+    padding: 15px 0;
 }
 
 .faq-question .expand-icon {
     transition: transform 0.3s ease;
-    font-size: 1.8em; /* Tamaño del icono */
+    font-size: 1.8em;
 }
 
 .faq-question.active .expand-icon {
-    transform: rotate(180deg); /* Rota el icono cuando está activo */
+    transform: rotate(180deg);
 }
 
 .faq-answer {
-    max-height: 0; /* Oculta la respuesta por defecto */
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
-    opacity: 0; /* Para una transición suave */
-    padding-bottom: 0; /* Quita el padding inferior predeterminado del p */
+    opacity: 0;
+    padding-bottom: 0;
 }
 
 .faq-answer.show {
-    max-height: 200px; /* Altura máxima para mostrar la respuesta (ajusta si es necesario) */
+    max-height: 200px;
     opacity: 1;
-    padding-bottom: 20px; /* Añade padding cuando se muestra */
+    padding-bottom: 20px;
 }
 
 /* CTA Final */
