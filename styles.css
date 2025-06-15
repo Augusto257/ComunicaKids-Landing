@@ -38,24 +38,24 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 2.8em;
-    line-height: 1.2;
+    font-size: 2.5em;
+    line-height: 1.3;
 }
 
 h2 {
-    font-size: 2.2em;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    font-size: 1.9em;
+    margin-top: 50px;
+    margin-bottom: 35px;
 }
 
 h3 {
-    font-size: 1.6em;
-    margin-top: 20px;
+    font-size: 1.4em;
+    margin-top: 18px;
 }
 
 p {
-    font-size: 1.1em;
-    margin-bottom: 15px;
+    font-size: 1em;
+    margin-bottom: 12px;
 }
 
 .highlight {
@@ -66,11 +66,11 @@ p {
 .btn {
     display: inline-flex;
     align-items: center;
-    padding: 15px 30px;
+    padding: 12px 25px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1em;
     transition: background-color 0.3s ease, transform 0.2s ease;
     border: none;
     cursor: pointer;
@@ -101,13 +101,13 @@ p {
 }
 
 .large-btn {
-    padding: 18px 40px;
-    font-size: 1.2em;
+    padding: 15px 35px;
+    font-size: 1.1em;
 }
 
 
 .logo {
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: 700;
     color: var(--light-text);
     text-decoration: none;
@@ -117,7 +117,7 @@ p {
 .hero-section {
     background: linear-gradient(135deg, var(--primary-color) 0%, #A268D1 100%);
     color: var(--light-text);
-    padding: 10px 0;
+    padding: 30px 0;
     position: relative;
     overflow: hidden;
 }
@@ -133,9 +133,9 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
-    padding-top: 20px; 
-    padding-bottom: 20px;
+    gap: 50px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
 }
 
 .hero-content {
@@ -148,21 +148,21 @@ p {
 
 .hero-content h1 {
     color: var(--light-text);
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     text-align: left;
 }
 
 .hero-content .subtitle {
-    font-size: 1.3em;
+    font-size: 1.1em;
     opacity: 0.9;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-align: left;
 }
 
 .cta-buttons {
     display: flex;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
 }
 
@@ -171,7 +171,7 @@ p {
     display: flex;
     justify-content: flex-end; 
     align-items: left; 
-    max-width: 60%; 
+    max-width: 55%; 
 }
 
 .hero-image img {
@@ -185,7 +185,7 @@ p {
 
 /* Secciones Generales */
 section {
-    padding: 60px 0;
+    padding: 70px 0;
 }
 
 /* Sección de Problema */
@@ -197,13 +197,13 @@ section {
 .problem-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    margin-top: 40px;
+    gap: 25px;
+    margin-top: 35px;
 }
 
 .problem-item {
     background-color: var(--light-text);
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     text-align: left;
@@ -215,23 +215,23 @@ section {
 }
 
 .problem-item .material-icons {
-    font-size: 3em;
+    font-size: 2.5em;
     color: var(--primary-color);
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     display: block;
 }
 
 /* Sección de Solución */
 .solution-section {
     background-color: var(--light-text);
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 
 .solution-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 35px;
     text-align: center;
 }
 
@@ -254,13 +254,13 @@ section {
 
 .download-cta {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .solution-item .material-icons {
-    font-size: 3em;
+    font-size: 2.5em;
     color: var(--accent-blue);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     display: block;
 }
 
@@ -273,13 +273,13 @@ section {
 .why-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
+    gap: 25px;
+    margin-top: 35px;
 }
 
 .why-item {
     background-color: var(--light-text);
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease;
@@ -290,9 +290,9 @@ section {
 }
 
 .why-item .material-icons {
-    font-size: 3em;
+    font-size: 2.5em;
     color: var(--secondary-color);
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     display: block;
 }
 
@@ -300,23 +300,23 @@ section {
 .testimonials-section {
     background-color: var(--light-text);
     text-align: center;
-    padding: 60px 0;
+    padding: 70px 0;
 }
 
 .testimonial-item {
-    max-width: 800px;
-    margin: 30px auto;
+    max-width: 700px;
+    margin: 25px auto;
     font-style: italic;
     background-color: var(--light-bg);
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .testimonial-item p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.5;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     color: var(--dark-text);
 }
 
@@ -325,14 +325,14 @@ section {
     font-style: normal;
     font-weight: 600;
     color: var(--primary-color);
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 /* Sección para Terapeutas */
 .therapist-section {
     background-color: var(--primary-color);
     color: var(--light-text);
-    padding: 60px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
@@ -341,16 +341,16 @@ section {
 }
 
 .therapist-section p {
-    max-width: 800px;
-    margin: 0 auto 30px auto;
-    font-size: 1.15em;
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    font-size: 1.05em;
 }
 
 /* Sección de Preguntas Frecuentes */
 .faq-item {
     cursor: pointer;
     position: relative;
-    padding-right: 40px;
+    padding-right: 30px;
 }
 
 .faq-question {
@@ -358,12 +358,12 @@ section {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0;
-    padding: 15px 0;
+    padding: 12px 0;
 }
 
 .faq-question .expand-icon {
     transition: transform 0.3s ease;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 .faq-question.active .expand-icon {
@@ -381,14 +381,14 @@ section {
 .faq-answer.show {
     max-height: 200px;
     opacity: 1;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 /* CTA Final */
 .final-cta-section {
     background: linear-gradient(45deg, var(--accent-blue) 0%, #7ED6DD 100%);
     color: var(--light-text);
-    padding: 80px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
@@ -397,31 +397,31 @@ section {
 }
 
 .final-cta-section p {
-    font-size: 1.3em;
-    margin-bottom: 40px;
+    font-size: 1.1em;
+    margin-bottom: 30px;
     opacity: 0.9;
 }
 
 .final-cta-section .cta-buttons {
     flex-direction: column;
-    max-width: 400px;
+    max-width: 350px;
     margin: 0 auto;
-    gap: 15px;
+    gap: 12px;
 }
 
 /* Footer */
 .footer {
     background-color: #2c3e50;
     color: #b0c4de;
-    padding: 40px 0;
+    padding: 30px 0;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 
 .footer-links a, .social-links a {
     color: #b0c4de;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 8px;
     transition: color 0.3s ease;
 }
 
@@ -430,44 +430,44 @@ section {
 }
 
 .social-links img {
-    width: 30px;
-    height: 30px;
-    margin: 0 5px;
+    width: 25px;
+    height: 25px;
+    margin: 0 4px;
 }
 
 .footer p {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 /* Media Queries para Responsividad */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2.2em;
+        font-size: 2em;
     }
 
     h2 {
-        font-size: 1.8em;
+        font-size: 1.7em;
     }
 
     h3 {
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 
     .hero-section {
-        padding: 60px 0;
+        padding: 50px 0;
     }
 
     .hero-image img {
-        max-width: 80%;
+        max-width: 70%;
     }
 
     .cta-buttons {
         flex-direction: column;
-        gap: 15px;
+        gap: 12px;
     }
 
     .btn {
-        width: 80%;
+        width: 0%;
         margin: 0 auto;
     }
 
@@ -504,20 +504,24 @@ section {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 1.8em;
-    }
-    h2 {
         font-size: 1.6em;
     }
+    h2 {
+        font-size: 1.4em;
+    }
     .hero-content .subtitle {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .btn {
-        font-size: 1em;
-        padding: 12px 25px;
+        font-size: 0.9em;
+        padding: 10px 20px;
     }
 
     .hero-image img {
-        max-width: 90%;
+        max-width: 80%;
+    }
+
+    section {
+        padding: 50px 0;
     }
 }
